@@ -38,10 +38,12 @@ To address these challenges, this project implements a programmatic data pipelin
 
 ---
 
+## System Architecture
 
 ![Enterprise Data Architecture](retail_sales_performance_analytics_platform-2.jpeg)
 
-    
+---
+
 ## Architectural Layer Design Decisions
 
 ### Bronze Layer (Raw Storage)
