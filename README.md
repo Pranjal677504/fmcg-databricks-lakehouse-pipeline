@@ -195,4 +195,4 @@ To enable non-technical business leaders to extract ad-hoc business insights, a 
 
 ## Project Context and Attribution
 
-This architecture is modeled after an end-to-end data engineering scenario designed by **Codebasics**. The project demonstrates the application of enterprise design patterns (Medallion Architecture, dimensional modeling, Unity Catalog governance, and generative AI reporting layers) to solve a complex consolidation challenge in the FMCG sector.
+This architecture is modeled after an end-to-end data engineering scenario. The project demonstrates the application of enterprise design patterns (Medallion Architecture, dimensional modeling, Unity Catalog governance, and generative AI reporting layers) to solve a complex consolidation challenge in the FMCG sector.
