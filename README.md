@@ -191,8 +191,15 @@ To enable non-technical business leaders to extract ad-hoc business insights, a 
 6. **Gold Layer Modeling** — Run the notebooks in the `4_gold/` directory to generate optimized dimensional modeling tables.
 7. **Automated Orchestration** — Import the workflow dependency graph defined in `5_orchestration/workflow_definition.json` into Databricks Workflows to schedule, monitor, and automate execution of the entire pipeline.
 
+### Databricks Workflow: Successful Run
+
+The workflow shown below runs customer, product, and pricing dimension processing in sequence, followed by incremental order fact processing. All four tasks completed successfully on serverless compute in this run.
+
+![Successful Databricks workflow run showing customer, product, and pricing dimension tasks followed by order fact processing](databricks-workflow-success.png)
+
 ---
 
 ## Project Context and Attribution
 
 This architecture is modeled after an end-to-end data engineering scenario. The project demonstrates the application of enterprise design patterns (Medallion Architecture, dimensional modeling, Unity Catalog governance, and generative AI reporting layers) to solve a complex consolidation challenge in the FMCG sector.
+
